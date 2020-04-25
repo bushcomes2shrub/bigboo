@@ -18,3 +18,6 @@ bin
 
 # how bout that 
 .project
+
+# Windows Executables
+.exe 
