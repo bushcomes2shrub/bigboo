@@ -1,5 +1,5 @@
 # big boo
-#### The largest boo ever attempted
+#### Largest boo ever attempted
 ---
 
 ### Building
@@ -13,7 +13,7 @@ gradlew clean build
 
 ### Squashing commits
 ```bash
-git rebase -i HEAD~${#_of commits)
+git rebase -i HEAD~${#_of commits}
 
 git push origin ${branch} --force with lease
 ```
