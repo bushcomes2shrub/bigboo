@@ -1,0 +1,30 @@
+// BigBoo v0.0.1
+
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'application'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor  'org.projectlombok:lombok:1.18.12'
+    implementation 'com.google.guava:guava:28.2-jre'
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    mainClassName = 'bigboo.Application'
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
